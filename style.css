@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 100vh;
+}
+.navbar-style {
+  box-shadow: 0 5px 10px #efefef;
+}
+.logo {
+  padding: 5px;
+}
+.navbar-nav {
+  padding: 25px;
+  font-weight: bolder;
+}
+li a {
+  color: black;
+}
+.icon-bar {
+  background: darkorange;
+}
+.navbar-left {
+  padding: 0;
+}
+.background-image {
+  width: 1257px;
+  height: 350px;
+
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  position: relative;
+}
+.background-image img {
+  width: 1257px;
+  height: 400px;
+  translate: rotate(20deg);
+}
+.text {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  text-align: justify;
+}
